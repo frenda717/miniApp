@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="miniApp-dao" />
+        <module name="dao" />
+        <module name="miniApp-service" />
+        <module name="miniApp-common" />
+        <module name="miniApp-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dao" target="1.8" />
+      <module name="miniApp" target="1.8" />
+      <module name="miniApp-common" target="1.8" />
+      <module name="miniApp-dao" target="1.8" />
+      <module name="miniApp-service" target="1.8" />
+      <module name="miniApp-web" target="1.8" />
+      <module name="miniApp-webapi" target="1.8" />
+      <module name="wrapper (1)" target="1.5" />
+      <module name="wrapper (2)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dao" options="-parameters" />
+      <module name="miniApp" options="-parameters" />
+      <module name="miniApp-common" options="-parameters" />
+      <module name="miniApp-dao" options="-parameters" />
+      <module name="miniApp-service" options="-parameters" />
+      <module name="miniApp-web" options="-parameters" />
+      <module name="miniApp-webapi" options="-parameters" />
+    </option>
+  </component>
+</project>

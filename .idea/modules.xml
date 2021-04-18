@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/miniApp.iml" filepath="$PROJECT_DIR$/miniApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miniApp-common/miniApp-common.iml" filepath="$PROJECT_DIR$/miniApp-common/miniApp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miniApp-dao/miniApp-dao.iml" filepath="$PROJECT_DIR$/miniApp-dao/miniApp-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miniApp-service/miniApp-service.iml" filepath="$PROJECT_DIR$/miniApp-service/miniApp-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miniApp-web/miniApp-web.iml" filepath="$PROJECT_DIR$/miniApp-web/miniApp-web.iml" />
+    </modules>
+  </component>
+</project>
